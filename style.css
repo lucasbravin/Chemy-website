@@ -1,0 +1,9 @@
+/* items do cabeçalho e navegação das paginas (comum a todas as paginas) */
+header{
+    background-color: rgb(78, 78, 78);
+}
+.header-items ul{
+    border: inherit;
+    align-items: inherit;
+    
+}

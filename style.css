@@ -7,3 +7,34 @@ header{
     align-items: inherit;
     
 }
+
+/* periodic table css*/
+.periodical-table tr{
+    
+    padding: 21px;
+    max-width: 40px;
+    height: 40px;
+}
+.periodical-table td{
+    padding: 21px;
+    text-align: center;
+    text-decoration: none;
+    background-color: hotpink;
+}
+.periodical-table table tr td a{
+    
+    background-color: indigo;
+    text-decoration: none;
+    color: honeydew;
+}
+
+.periodical-table{
+    align-items: center;
+    padding: 10%;
+}
+.PTitem{
+    text-align: center;
+    border: black;
+    border-width: 2px;
+    padding: 1%;
+}

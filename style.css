@@ -1,42 +1,50 @@
 /* items do cabeçalho e navegação das paginas (comum a todas as paginas) */
+body{
+}
+
 header{
-    background-color: rgb(78, 78, 78);
+    
 }
 .header-items ul{
-    border: inherit;
-    align-items: inherit;
+    padding: 5%;
+    
+}
+.fotter-items ul{
+    padding: 5%;
+    position: inherit;
+    align-self: baseline;
     
 }
 /* periodic table css*/
-#PTable {
-    width: 100%;
-    min-width: 600px;
-    
+.PTable {
+    padding: 5%;
+    padding-top: 0px;
+    position: static;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 200px;
+    width: 90%;
 }
 .PT-container{
-    margin-bottom: 2%;
-    align-self: center;
+    padding: 45px;
+    margin: 0 auto;
 }
 .PT-column{
-    padding: 3px;
-	width: 5%;
-	display: inline-block;
-	margin-right: -7px;
+    width: 5%;
+    float: left;
+    display: table-cell;
+    vertical-align: bottom;
 }
 .PT-column div{
-    
-    border-radius: 4px;
-    box-sizing: border-box;
-    text-align: center;
-    background: rgb(126, 126, 126);
-    margin-top: 6px;
-    padding: 20% 0;
+    max-height: 100px;
+    overflow: auto;
 }
 .PT-column div a{
-    text-decoration: none;
-    color: aliceblue;
-}
 
+}
 
 /* Commented code area
 

@@ -7,30 +7,65 @@ header{
     align-items: inherit;
     
 }
-
 /* periodic table css*/
+#PTable {
+    width: 100%;
+    min-width: 600px;
+    
+}
+.PT-container{
+    margin-bottom: 2%;
+    align-self: center;
+}
+.PT-column{
+    padding: 3px;
+	width: 5%;
+	display: inline-block;
+	margin-right: -7px;
+}
+.PT-column div{
+    
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    background: rgb(126, 126, 126);
+    margin-top: 6px;
+    padding: 20% 0;
+}
+.PT-column div a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+/* Commented code area
+
 .periodical-table tr{
     
     padding: 21px;
-    max-width: 40px;
-    height: 40px;
+    width: 3px;
+    height: 3px;
 }
 .periodical-table td{
-    padding: 21px;
+    height: min-content;
+    width: min-content;
+    
     text-align: center;
     text-decoration: none;
     background-color: hotpink;
 }
 .periodical-table table tr td a{
-    
     background-color: indigo;
     text-decoration: none;
     color: honeydew;
 }
 
 .periodical-table{
-    align-items: center;
-    padding: 10%;
+    display: grid;
+    grid-template-columns: repeat(9, 100px);
+    grid-template-rows: repeat(4, 100px);
+    justify-content: center;
+
 }
 .PTitem{
     text-align: center;
